@@ -5,12 +5,15 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+  <Background/>
   </div>
 </template>
 <script lang="ts">
+import Background from '@components/Background/index.vue';
 
 export default {
   components: {
+    Background,
   },
 };
 </script>
